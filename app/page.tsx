@@ -18,7 +18,7 @@ export default function Home() {
       </div>
       <Image
         width={400}
-        className="absolute  right-0 -bottom-20 grayscale"
+        className="absolute  -right-16 -bottom-20 grayscale"
         src={Portrait}
         alt="Foto de Sandro Luz"
       />
