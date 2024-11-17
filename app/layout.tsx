@@ -20,7 +20,7 @@ export default function RootLayout({
         className={`bg-zinc-900 text-white flex flex-col min-h-screen ${inter.className}`}
       >
         <Navbar />
-        <div className="flex-1 container">{children}</div>
+        <div className="flex-1 container flex flex-col">{children}</div>
         <Footer />
       </body>
     </html>
